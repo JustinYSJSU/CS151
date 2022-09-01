@@ -1,0 +1,32 @@
+Main differences between int and Integer in Java
+- int is a primitive type varible, Integer is a class
+- int stores a value in memory, Integer convers int into an object or 
+  and object into an int
+- an int takes 32 bits to store, an Integer takes 128 bits
+- int does not have any built in functions to change its value.
+- Integer has multiple methods that can change its value. 
+- Integer must be imported
+- int can only allows the binary value of an integer
+
+Advantages of int
+- int takes less memory
+- easier to use
+- no import required (done implicitly) 
+
+Advantages of Integer 
+- access to methods that can change its value
+- can parse values from Strings,etc
+- allows more than just the binary value (hex, etc)
+
+int specific functionalities 
+- store just an integer, nothing else
+- store int value in memory
+
+Integer specific functionalities
+- parsing from Strings
+- comparing two values
+- reversing values
+
+I referenced the following sources
+- https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html
+- https://www.tutorialspoint.com/difference-between-an-integer-and-int-in-java
