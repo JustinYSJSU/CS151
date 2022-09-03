@@ -50,6 +50,9 @@ public class Employee extends Person
   /**
    Calculates total pay for an employee based on their status (part-time = hourly, full time = weekly)
    
+   **I rounded the pay amount with the help of the following reference**
+   https://stackoverflow.com/questions/11701399/round-up-to-2-decimal-places-in-java
+
    @param units number of units(hours or weeks) worked
    @return totalPay the total amount of money the employee has earned from working
 
