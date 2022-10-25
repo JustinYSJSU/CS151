@@ -98,6 +98,14 @@ public class Student
           };
           courses.sort(timeAscend);
       }
+      else if(attribute.toLowerCase().equals("day"))
+      {
+        Comparator<Course> dayAscend = new Comparator<Course>(){
+         @Override
+          public int compare(Course c1, Course c2){return c1.getDay().compareTo(c2.getDay());}
+          };
+          courses.sort(dayAscend);
+      }
     }
     else
     {
@@ -132,6 +140,14 @@ public class Student
           public int compare(Course c1, Course c2){return c2.getTime().compareTo(c1.getTime());}
           };
           courses.sort(timeDescend);
+      }
+      else if(attribute.toLowerCase().equals("day"))
+      {
+        Comparator<Course> dayDescend = new Comparator<Course>(){
+         @Override
+          public int compare(Course c1, Course c2){return c2.getDay().compareTo(c1.getDay());}
+          };
+          courses.sort(dayDescend);
       }
     }
 
