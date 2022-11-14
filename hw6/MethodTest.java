@@ -41,11 +41,6 @@ public class MethodTest
 
   private static <T> int count(ArrayList<T> a)
   {
-    int count = 0;
-    for(T e : a) 
-    {
-      count++;
-    }
-    return count;
+     return a.size();
   }
 }
